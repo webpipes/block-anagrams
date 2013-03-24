@@ -2,8 +2,8 @@
     "name": "block-anagrams",
     "version": "0.0.1",
     "engines": {
-        "node": "0.6.12",
-        "npm": "1.1.9"
+        "node": "0.8.17",
+        "npm": "1.2.0"
     },
     "dependencies": {
         "node-webpipe": "latest",

@@ -8,7 +8,9 @@ generator.generateTree () ->
     @input "word", "string", "A single word, or letters."
     @output "words", "list", "A list of anagrams."
     @handle (inputs, callback) ->
-      callback false, generator.getAnagrams(inputs.word)
+      outputs =
+        words: generator.getAnagrams(inputs.word)
+      callback false, outputs
     @listen()
 
 

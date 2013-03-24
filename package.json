@@ -7,6 +7,6 @@
     },
     "dependencies": {
         "node-webpipe": "latest",
-        "words": "latest"
+        "words": "0.1.2"
     }
 }

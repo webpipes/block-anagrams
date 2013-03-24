@@ -6,6 +6,7 @@
         "npm": "1.2.10"
     },
     "dependencies": {
+        "coffee-script": "latest",
         "node-webpipe": "latest",
         "words": "0.1.2"
     }
